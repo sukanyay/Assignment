@@ -1,0 +1,48 @@
+body {
+    background-color: white;
+}
+
+img {
+    float: right;
+}
+
+div.sample{
+	border: 1px solid blue;
+	margin: 100px;
+}
+h2{
+padding-left:100px;
+}
+ .sample{
+    overflow: auto;
+}
+
+p::before {
+	content: "See";
+}
+
+p::after {
+	content: "!!";
+}
+ 
+ h3{
+	position: static;
+    z-index: -1;
+   }
+
+h1 {
+    color: blue;
+}
+
+p {
+    color:red;
+
+}
+
+div.hide {
+    display: none;
+}
+
+div:hover {
+    background-color: pink;
+}
